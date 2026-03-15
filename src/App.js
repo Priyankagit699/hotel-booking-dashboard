@@ -5,12 +5,12 @@ import Details from "./pages/Details";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/hotel/:id" element={<Details />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

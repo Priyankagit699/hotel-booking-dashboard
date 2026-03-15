@@ -23,19 +23,21 @@ function Home() {
   return (
     <div>
       <h1>Hotel Finder</h1>
-    <div>
-      <input
-        type="text"
-        placeholder="Search by name or city"
-        onChange={(e) => setSearch(e.target.value)}
-      />
 
-      <select onChange={(e) => setSort(e.target.value)}>
-        <option value="">Filter</option>
-        <option value="price">Price Low to High</option>
-        <option value="rating">Star Rating</option>
-      </select>
-    </div>
+      <div className="search-bar">
+        <input
+          type="text"
+          placeholder="Search by name or city"
+          onChange={(e) => setSearch(e.target.value)}
+        />
+
+        <select onChange={(e) => setSort(e.target.value)}>
+          <option value="">Filter</option>
+          <option value="price">Price Low to High</option>
+          <option value="rating">Star Rating</option>
+        </select>
+      </div>
+
       <div className="grid">
         {hotels.length > 0 ? (
           hotels.map((hotel) => (

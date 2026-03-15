@@ -2,7 +2,7 @@
 
 This is a simple responsive web application that allows users to discover hotels, search by name or location, filter by price or rating, and view hotel details.
 
-# Features
+## Features
 - Search hotels by name or city
 - Filter hotels by price (Low to High)
 - Filter hotels by star rating
@@ -10,26 +10,26 @@ This is a simple responsive web application that allows users to discover hotels
 - Book hotel (shows confirmation alert)
 - Responsive design for desktop and mobile
 
-# Tech Stack
+## Tech Stack
 - React
 - React Router
 - JavaScript
 - CSS
 - Mock hotel data
 
-# Project Structure
+## Project Structure
 src/
 - components/ (HotelCard component)
 - pages/ (Home and Details pages)
 - data/ (Mock hotel data)
 
-# Live Demo
+## Live Demo
 https://priyankagit699.github.io/hotel-booking-dashboard/
 
-# GitHub Repository
+## GitHub Repository
 https://github.com/Priyankagit699/hotel-booking-dashboard
 
-# Run Locally
+## Run Locally
 
 Clone the repository
 

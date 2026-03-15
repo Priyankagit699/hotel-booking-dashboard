@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Priyankagit699/hotel-booking-dashboard/static/css/main.2eb0434f.css",
+    "main.js": "/Priyankagit699/hotel-booking-dashboard/static/js/main.b0e42647.js",
+    "index.html": "/Priyankagit699/hotel-booking-dashboard/index.html",
+    "main.2eb0434f.css.map": "/Priyankagit699/hotel-booking-dashboard/static/css/main.2eb0434f.css.map",
+    "main.b0e42647.js.map": "/Priyankagit699/hotel-booking-dashboard/static/js/main.b0e42647.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2eb0434f.css",
+    "static/js/main.b0e42647.js"
+  ]
+}
